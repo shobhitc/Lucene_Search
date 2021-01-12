@@ -37,7 +37,7 @@ ConstantsData.java
 	This class defines the constants used by the Apache lucene libraries.
 
 LuceneImplementation.java (Main Class) : 
-	This is the main class which will in turn call the other class for the respective functions.This class will have basic validations for the query searched and path provided .On the basis of the input from user(Exit/Indexin/Search) respective class will be called and corresponding function will be preformed.Ranking of the documents will be done on the rank score and will be listed according to the rank.
+	This is the main class which will in turn call the other class for the respective functions.This class will have basic validations for the query searched and path provided .On the basis of the input from user(Exit/Indexin/Search) respective class will be called and corresponding function will be preformed. Ranking of the documents will be done on the rank score and will be listed according to the rank.
 	
 FileTypeFilter.java :
 	This file will return a boolean value on the basis of the file format. Valid file formats accepted by program is .txt/.htm/.html , if any other format is places , a False value will be returned by the class.
@@ -46,4 +46,4 @@ Indexer.java :
 This class applies the stemming operation using porter stemmer on the search query and indexes the files. In Index data, file name, its path and content is stored.
 
 Searcher.java
-	This class will return the score of the documents corresponding to the searched query.Standard Analyzer (Part of Lucene) is used for analysing the query.
+	This class will return the score of the documents corresponding to the searched query. Standard Analyzer (Part of Lucene) is used for analysing the query.
